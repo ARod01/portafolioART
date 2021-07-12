@@ -1,5 +1,17 @@
+$color-primary: #02172F;
+$color-secondary: #CE3D31;
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+.header{
+    width: 100%;
+    min-width: 320px;
+    min-height: 10vh;
+    &__nav{
+        background-color: $color-primary;
+    }
 }

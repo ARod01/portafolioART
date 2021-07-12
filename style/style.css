@@ -4,4 +4,13 @@
   box-sizing: border-box;
 }
 
+.header {
+  width: 100%;
+  min-width: 320px;
+  min-height: 10vh;
+}
+.header__nav {
+  background-color: #02172F;
+}
+
 /*# sourceMappingURL=style.css.map */
