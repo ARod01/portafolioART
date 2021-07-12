@@ -8,9 +8,65 @@
   width: 100%;
   min-width: 320px;
   min-height: 10vh;
-}
-.header__nav {
+  position: sticky;
+  top: 0;
   background-color: #02172F;
+}
+
+.introduce {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: aqua;
+}
+.introduce__img {
+  width: 270px;
+  height: 270px;
+  border-radius: 50%;
+  background-color: black;
+}
+.introduce__text {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.about {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: burlywood;
+}
+.about__text {
+  width: 80%;
+  height: 90%;
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 15% 85%;
+  align-items: center;
+  border-radius: 15px;
+  box-shadow: 3px 4px 30px 0px rgba(0, 0, 0, 0.52);
+}
+.about__text-title {
+  grid-column: 1/2;
+  grid-row: 1/2;
+  padding-left: 10px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #000;
+}
+.about__text-text {
+  grid-column: 1/2;
+  grid-row: 2/3;
+  align-self: start;
+  padding-left: 5px;
+  padding-right: 5px;
+  text-align: justify;
 }
 
 /*# sourceMappingURL=style.css.map */
