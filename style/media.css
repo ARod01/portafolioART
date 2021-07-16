@@ -27,16 +27,17 @@
 .about__text-text {
   grid-column: 2/3;
   grid-row: 2/3;
+  font-size: 16px;
 }
 
 .technology {
   padding-bottom: 30vh;
 }
 .technology__container {
-  width: 80%;
+  width: 90%;
   display: grid;
   grid-template-columns: repeat(8, 12.5%);
-  grid-template-rows: repeat(3, 120px);
+  grid-template-rows: 150px repeat(2, 120px);
 }
 .technology__container-title {
   grid-column: 1/9;
