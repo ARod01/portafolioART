@@ -31,7 +31,7 @@
 }
 
 .technology {
-  padding-bottom: 30vh;
+  padding-bottom: 10vh;
 }
 .technology__container {
   width: 90%;
@@ -46,6 +46,20 @@
 .technology__container-item {
   width: 80px;
   height: 80px;
+}
+
+.proyect__container {
+  width: 690px;
+  height: auto;
+  display: grid;
+  grid-template-columns: repeat(2, 45%);
+  grid-template-rows: repeat(3, 200px);
+  gap: 25px 10%;
+  place-items: center;
+}
+.proyect__container-item {
+  width: 300px;
+  height: 200px;
 }
 
 /*# sourceMappingURL=media.css.map */
