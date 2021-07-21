@@ -15,10 +15,11 @@
 
 .about__text {
   width: 70%;
-  height: 70%;
+  height: auto;
   display: grid;
   grid-template-columns: minmax(10%, auto) minmax(80%, auto) minmax(10%, auto);
-  grid-template-rows: 30% 70%;
+  grid-template-rows: 100px minmax(150px, auto) 100px;
+  place-items: center;
 }
 .about__text-title {
   grid-column: 2/3;
@@ -28,6 +29,10 @@
   grid-column: 2/3;
   grid-row: 2/3;
   font-size: 16px;
+}
+.about__text-cv {
+  grid-column: 2/3;
+  grid-row: 3/4;
 }
 
 .technology {

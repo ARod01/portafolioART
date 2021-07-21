@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Personal page, portafolio">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
     <link rel="stylesheet" href="./style/style.css">
     <link rel="stylesheet" type="text/css" href="./style/media.css" media="screen and (min-width:768px)">
@@ -52,6 +53,11 @@
             <div class="about__text">
                 <h2 class="about__text-title">Sobre mí</h2>
                 <p class="about__text-text">Soy un profesional en el área de IT, con experiencia en el área de soporte a aplicaciones y usuarios, administración de sistemas operativos y de bases de datos.<br>Me apasiona el desarrollo web, he estado tomando cursos en técnología web y practicando en proyectos que aqui presento.<br>Quiero poder aportar y desarrollar con mi conocimiento, trato de estar actualizado y aprender sobre las novedades buscando también incorporar temas de seguridad.</p>
+                <button class="about__text-cv" onclick="showPDF()">Currículum</button>
+            </div>
+            <div class="about__pdf">
+                <img src="./assets/icons/close.svg" alt="cerrar pdf" class="about__pdf-close">
+                <iframe src="./assets/pdf/Alfredo.pdf" class="about__pdf-viewPdf" title="CV"></iframe>
             </div>
         </section>
         <section class="technology" id="technology">
@@ -82,48 +88,48 @@
                     <div class="proyect__description">
                         <p>Demo de google</p>
                         <p>HTML, CSS (Flex and Grid)</p>
-                        <a href="https://googlesimulatehome.netlify.app/" target="_blank">Website</a>
-                        <a href="https://github.com/ARod01/GoogleHome" target="_blank">Repository</a>
+                        <a rel="noopener" href="https://googlesimulatehome.netlify.app/" target="_blank">Website</a>
+                        <a rel="noopener" href="https://github.com/ARod01/GoogleHome" target="_blank">Repository</a>
                     </div>
                 </div>
                 <div class="proyect__container-item">
                     <div class="proyect__description">
                         <p>First movil</p>
                         <p>HTML, CSS (Media queries, Flex and Grid)</p>
-                        <a href="https://demofirstmovil.netlify.app/" target="_blank">Website</a>
-                        <a href="https://github.com/ARod01/movilfirstbatata" target="_blank">Repository</a>
+                        <a rel="noopener" href="https://demofirstmovil.netlify.app/" target="_blank">Website</a>
+                        <a rel="noopener" href="https://github.com/ARod01/movilfirstbatata" target="_blank">Repository</a>
                     </div>
                 </div>
                 <div class="proyect__container-item">
                     <div class="proyect__description">
                         <p>Blog noticias</p>
                         <p>HTML, Stylus and ReactJS</p>
-                        <a href="https://blog-usingreact.netlify.app/" target="_blank">Website</a>
-                        <a href="https://github.com/ARod01/-BlogWithReactJS" target="_blank">Repository</a>
+                        <a rel="noopener" href="https://blog-usingreact.netlify.app/" target="_blank">Website</a>
+                        <a rel="noopener" href="https://github.com/ARod01/-BlogWithReactJS" target="_blank">Repository</a>
                     </div>
                 </div>
                 <div class="proyect__container-item">
                     <div class="proyect__description">
                         <p>Game rabbits</p>
                         <p>HTML and CSS animations</p>
-                        <a href="https://rabbitgame.netlify.app/" target="_blank">Website</a>
-                        <a href="https://github.com/ARod01/rabbitgame" target="_blank">Repository</a>
+                        <a rel="noopener" href="https://rabbitgame.netlify.app/" target="_blank">Website</a>
+                        <a rel="noopener" href="https://github.com/ARod01/rabbitgame" target="_blank">Repository</a>
                     </div>
                 </div>
                 <div class="proyect__container-item">
                     <div class="proyect__description">
                         <p>Lego Page</p>
                         <p>HTML and CSS animations</p>
-                        <a href="https://lego-animation.netlify.app/" target="_blank">Website</a>
-                        <a href="https://github.com/ARod01/legoAnimation" target="_blank">Repository</a>
+                        <a rel="noopener" href="https://lego-animation.netlify.app/" target="_blank">Website</a>
+                        <a rel="noopener" href="https://github.com/ARod01/legoAnimation" target="_blank">Repository</a>
                     </div>
                 </div>
                 <div class="proyect__container-item">
                     <div class="proyect__description">
                         <p>Soccer teams Catalog</p>
                         <p>HTML, CSS and VueJS</p>
-                        <a href="https://teamsfutbol.netlify.app/" target="_blank">Website</a>
-                        <a href="https://github.com/ARod01/futbolCatalogoVue" target="_blank">Repository</a>
+                        <a rel="noopener" href="https://teamsfutbol.netlify.app/" target="_blank">Website</a>
+                        <a rel="noopener" href="https://github.com/ARod01/futbolCatalogoVue" target="_blank">Repository</a>
                     </div>
                 </div>
             </div>
@@ -131,18 +137,19 @@
         <section class="contact" >
             <h2 class="contact__title" id="contact">Contacto</h2>
             <div class="contact__container">
-                <a class="contact__container-item" href="https://www.linkedin.com/in/alfredorodrigueztlachi8199141bb/" target="_blank">
-                    <img src="./assets/icons/linkedin.png" alt="">
+                <a rel="noopener" class="contact__container-item" href="https://www.linkedin.com/in/alfredorodrigueztlachi8199141bb/" target="_blank">
+                    <img src="./assets/icons/linkedin.png" alt="link linkedin">
                 </a>
-                <a class="contact__container-item" href="https://github.com/ARod01" target="_blank">
-                    <img src="./assets/icons/github.png" alt="">
+                <a rel="noopener" class="contact__container-item" href="https://github.com/ARod01" target="_blank">
+                    <img src="./assets/icons/github.png" alt="link github">
                 </a>
-                <a class="contact__container-item" href="https://platzi.com/p/alfredorodrigueztlachi/" target="_blank">
-                    <img src="./assets/icons/platzi.png" alt="">
+                <a rel="noopener" class="contact__container-item" href="https://platzi.com/p/alfredorodrigueztlachi/" target="_blank">
+                    <img src="./assets/icons/platzi.png" alt="link platzi">
                 </a>
             </div>
         </section>
     </main>
+    <script src="./script/script.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
 </body>
