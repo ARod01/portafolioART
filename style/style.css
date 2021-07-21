@@ -36,7 +36,10 @@
   width: 240px;
   height: 240px;
   border-radius: 50%;
-  background-color: #fff;
+  background-image: url("../assets/images/profile.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 .introduce__text {
   width: 80%;
