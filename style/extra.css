@@ -1,0 +1,15 @@
+.proyect__container {
+  width: 100%;
+  height: auto;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(400px, auto));
+  grid-template-rows: repeat(2, 200px);
+  gap: 25px 0;
+  place-items: center;
+}
+.proyect__container-item {
+  width: 300px;
+  height: 200px;
+}
+
+/*# sourceMappingURL=extra.css.map */
