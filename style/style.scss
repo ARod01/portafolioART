@@ -176,6 +176,7 @@ $color-secondary: #CE3D31;
 .proyect{
     width: 100%;
     min-width: 320px;
+    height: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -189,14 +190,14 @@ $color-secondary: #CE3D31;
     }
     &__container{
         width: 300px;
-        height: 1325px;
+        height: auto;
         display: grid;
         grid-template-columns: 300px;
-        grid-template-rows: repeat(6, 200px);
+        grid-template-rows: repeat(8, 200px);
         gap: 25px 0;
         justify-items: center;
         align-items: center;
-        background-color: fff;
+        background-color: #fff;
         &-item{
             position: relative;
             width: 100%;
@@ -224,6 +225,12 @@ $color-secondary: #CE3D31;
         }
         &-item:nth-child(6){
             background-image: url("../assets/images/catalogoFutbol.png");
+        }
+        &-item:nth-child(7){
+            background-image: url("../assets/images/landingpage.png");
+        }
+        &-item:nth-child(8){
+            background-image: url("../assets/images/caloriescounter.png");
         }
         &-item:hover .proyect__description{
             opacity: 75%;
